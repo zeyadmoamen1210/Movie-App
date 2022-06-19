@@ -24,7 +24,6 @@ onMounted(() => {
 
 <template>
   <div :dir="locale == 'ar' ? 'rtl' : 'ltr'">
-  hi
     <RouterView />
   </div>
 </template>
