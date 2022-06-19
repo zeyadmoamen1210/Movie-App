@@ -3,7 +3,6 @@
 import { useI18n } from 'vue-i18n';
 import { onMounted } from 'vue';
 import { useUserStore } from '@/stores/user';
-
 const { locale } = useI18n();
 const userStore = useUserStore();
 
@@ -25,6 +24,7 @@ onMounted(() => {
 
 <template>
   <div :dir="locale == 'ar' ? 'rtl' : 'ltr'">
+  hi
     <RouterView />
   </div>
 </template>
