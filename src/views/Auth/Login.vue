@@ -43,8 +43,8 @@ const loginRules = ref({
 const formRef = ref<FormInstance>();
 
 const loginForm = reactive<LoginInterface>({
-    email: 'zeyad@test.com',
-    password: 'zeyad'
+    email: '',
+    password: ''
 })
 
 const submitLogin = (): void => {

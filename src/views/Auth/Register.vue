@@ -58,9 +58,9 @@ const registerFormRule = reactive({
 })
 
 const registerForm = ref<RegisterInterface>({
-    name: "zeyad",
-    email: "zeyad@test.com",
-    password: "zeyad"
+    name: "",
+    email: "",
+    password: ""
 })
 
 
