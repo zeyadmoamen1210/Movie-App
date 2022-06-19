@@ -25,14 +25,6 @@ const categories = ref<CategoryInterface[]>();
 onMounted(async () => {
   const categoriesResponse = await getAll();
   categories.value = categoriesResponse.message;
-
-   // Flag For Get All Categories
-  categories.value?.unshift({
-    id: 0,
-    name: 'All',
-    created_at: new Date(),
-    updated_at: new Date()
-  })
 })
 
 // Remove Element From DOM locally ( Preformance Tip )
@@ -145,9 +137,9 @@ const submitAddCategory = (category: {name: string}) => {
 <template>
   <div class="catergories">
     <header class="d-flex justify-content-between align-items-center">
-      <h5 class="margin-bottom-1rem font font--title"> أقسام الأفلام </h5>
+      <h5 class="margin-bottom-1rem font font--title"> {{ t('Category.Categories') }} </h5>
       <div>
-        <button class="button button--secondary" @click="addCategory.name = '' ,addModel = true">إضافة قسم </button>
+        <button class="button button--secondary" @click="addCategory.name = '' ,addModel = true">{{ t('Category.Add') }} </button>
       </div>
     </header>
     <div class="catergories__grid">

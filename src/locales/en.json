@@ -45,7 +45,8 @@
     "Category": {
         "Name": "Category Name",
         "Add": "Add Category",
-        "Update": "Update Category"
+        "Update": "Update Category",
+        "Categories": "Movies Categories"
     },
     "NoData": {
         "NoMoviesFound": "No Movies Found",
@@ -57,5 +58,18 @@
         "DeletedSuccessfully": "Deleted Successfully 🚀🚀",
         "CreatedSuccesssfully": "Created Successfully 🚀🚀",
         "UpdatedSuccessfully": "Updated Successfully 🚀🚀"
+    },
+    "Sidebar": {
+        "Movies": "Movies",
+        "Categories": "Categories"
+    },
+    "Movies": {
+        "All": "All Movies",
+        "Add": "Add Movie"
+    },
+    "PopConfirm": {
+        "AreYouSure": "Are You Sure To Delete This ?",
+        "Yes": "Yes",
+        "No": "No"
     }
 }

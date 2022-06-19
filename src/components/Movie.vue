@@ -65,8 +65,13 @@ const deleteMovie = async (movie: MovieInterface) => {
                     <div class="movie-action__delete">
 
 
-                        <el-popconfirm @confirm="deleteMovie(movie)" confirm-button-text="Yes" cancel-button-text="No" icon-color="#626AEF"
-                            title="Are you sure to delete this?">
+                        <el-popconfirm
+                           :cancel-button-text="t('PopConfirm.No')"
+                           :confirm-button-text="t('PopConfirm.Yes')"
+                           :title="t('PopConfirm.AreYouSure')"
+                           @confirm="deleteMovie(movie)"
+                           icon-color="#626AEF"
+                        >
                             <template #reference>
                                 <button class="button button--icon">
                                     <img class="movie-action__icon" src="@/assets/imgs/trash.svg" alt="">

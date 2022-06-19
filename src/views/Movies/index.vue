@@ -73,11 +73,11 @@ const removeMovieFromDom = (index: number) => {
 <template>
   <div class="movies">
     <div class="movies__header">
-      <h4 class="font font--title"> جميع الأفلام </h4>
+      <h4 class="font font--title"> {{ t('Movies.All') }} </h4>
       <RouterLink
          class="movies__add button button--secondary"
          to="/movies/add"
-      >إضافة فيلم</RouterLink>
+      > {{ t('Movies.Add') }} </RouterLink>
 
     </div>
     <section class="movies__categories">

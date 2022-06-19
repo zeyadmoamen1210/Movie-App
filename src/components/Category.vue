@@ -57,10 +57,10 @@ const deleteCategory = async (category: CategoryInterface) => {
           >
 
           <el-popconfirm
-                confirm-button-text="Yes"
-                cancel-button-text="No"
+                :confirm-button-text="t('PopConfirm.Yes')"
+                :cancel-button-text="t('PopConfirm.No')"
                 icon-color="#626AEF"
-                title="Are you sure to delete this?"
+                :title="t('PopConfirm.AreYouSure')"
                 @confirm="deleteCategory(category)"
             >
                 <template #reference>
