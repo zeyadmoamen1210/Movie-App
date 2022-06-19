@@ -1,0 +1,31 @@
+@import "./abstracts/variables";
+@import "./themes/index.scss";
+@import "./abstracts/mixins";
+@import "./abstracts/utilities";
+
+@import "./base/normalize";
+@import "./base/animations";
+@import "./base/base";
+@import "./base/typography";
+@import "./vendors/element-plus";
+
+
+
+@import "./layout/app-content.scss";
+@import "./layout/full-page.scss";
+@import "./layout/sidebar.scss";
+@import "./layout/navbar.scss";
+
+@import "./components/button";
+@import "./components/input";
+@import "./components/form";
+@import "./components/notify";
+@import "./components/model";
+@import "./components/category-card";
+@import "./components/pop-confirm";
+@import "./components/no-data";
+
+@import "./pages/login.scss";
+@import "./pages/register.scss";
+@import "./pages/movies.scss";
+@import "./pages/categories.scss";

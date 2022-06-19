@@ -1,0 +1,48 @@
+// $primary-color: purple;
+:root {
+    --primary-color: #7367f0;
+    --primary-color-light: #efeff275;
+    --primary-color-10: rgba(115, 103, 240, .5);
+    --purple-color: rgb(128, 0, 128);
+    --purple-color-10: rgba(128, 0, 128, .5);
+}
+
+.theme_ee5253 {
+    --primary-color: #ee5253;
+    --primary-color-10: rgb(238, 82, 83, .5);
+    --primary-color-light: rgba(251, 199, 199, 0.5);
+    --purple-color: rgb(138, 28, 76);
+    --purple-color-10: #2d2d2dc4
+}
+
+.theme_1dd1a1 {
+    --primary-color: #1dd1a1;
+    --primary-color-10: rgba(29, 209, 161, .5);
+    --primary-color-light: rgba(216, 248, 216, 0.5);
+    --purple-color: rgb(99, 192, 155);
+    --purple-color-10: #696666;
+}
+
+.theme_222f3e {
+    --primary-color: #222f3e;
+    --primary-color-10: rgb(34, 47, 62, .5);
+    --primary-color-light: rgba(196, 196, 196, 0.5);
+    --purple-color: rgba(187, 177, 189, 0.541);
+    --purple-color-10: #ff6464;
+}
+
+.theme_ff9f43 {
+    --primary-color: #ff9f43;
+    --primary-color-10: rgba(255, 159, 67, .5);
+    --primary-color-light: rgba(196, 196, 196, 0.5);
+    --purple-color: rgba(187, 177, 189, 0.541);
+    --purple-color-10: #ff6464;
+}
+
+$primary-color: #7367f0;
+$black-color: #333;
+$white-color: #FFF;
+$grey-color: #8e8d8d;
+
+$layout-bg: #f9f9f9;
+$sidebar-width: 32rem;

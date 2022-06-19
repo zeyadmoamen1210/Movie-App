@@ -1,0 +1,15 @@
+.el-notification {
+    flex-direction: row-reverse;
+
+    &__content {
+        p {
+            text-align: end;
+            font-family: 'cairo-regular';
+        }
+
+    }
+
+    &__title {
+        text-align: end;
+    }
+}

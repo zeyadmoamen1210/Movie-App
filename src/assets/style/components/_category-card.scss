@@ -1,0 +1,32 @@
+.category-card {
+    padding: 0.6rem 1rem;
+    background: var(--primary-color);
+    color: $white-color;
+    border-radius: .8rem;
+    cursor: pointer;
+    border: none;
+
+    &.editable {
+        width: 15rem;
+    }
+
+    &.selected-category {
+        background-color: var(--purple-color-10);
+    }
+
+    &__btns {
+        display: flex;
+        gap: .5rem;
+        flex-direction: row-reverse;
+        margin-top: 1rem;
+
+        background: var(--primary-color-light);
+        padding: 0.5rem;
+        border-radius: .5rem;
+
+    }
+
+    &__icon {
+        width: 2rem;
+    }
+}

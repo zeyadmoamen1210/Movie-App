@@ -1,0 +1,31 @@
+.login {
+    @include min-height(100vh);
+    @include center-with-grid;
+    overflow: hidden;
+
+    &__form-container {
+        min-width: 45rem;
+
+        @media screen and (max-width: 50rem) {
+            min-width: 85vw;
+        }
+    }
+
+    &__form {}
+
+    &__title {
+        margin-bottom: 1rem;
+        font-size: 2.5rem;
+        font-family: 'cairo-semi-bold';
+    }
+
+    &__btns {
+        @extend .d-flex;
+        gap: 1.5rem;
+        margin-top: 3rem
+    }
+
+    &__btn {
+        @extend .flex-fill;
+    }
+}

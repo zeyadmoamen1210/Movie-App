@@ -1,0 +1,44 @@
+%buttons-basics {
+    border: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.button {
+    &--primary {
+        background-color: var(--primary-color);
+        color: #FFF;
+        @extend %buttons-basics;
+        transition: background .2s ease;
+
+        &:hover {
+            background: var(--primary-color-10);
+        }
+    }
+
+    &--secondary {
+        @extend %buttons-basics;
+        border: .2rem solid var(--primary-color);
+        background-color: $white-color;
+        color: var(--primary-color);
+
+        &:hover {
+            background: var(--primary-color-light);
+        }
+    }
+
+    &--icon {
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    &--classic {
+        font-size: 1.4rem;
+        font-family: 'cairo-semi-bold';
+        padding: 0.8rem 1.5rem;
+        border-radius: 0.5rem;
+    }
+}

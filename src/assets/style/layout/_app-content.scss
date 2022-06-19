@@ -1,0 +1,26 @@
+.app-content-layout {
+    @include min-height(100vh);
+    background-color: #f7f7f7;
+
+    &__contant {
+        min-height: 100vh;
+        padding: 1.5rem;
+
+        &--margin-right {
+            margin-right: $sidebar-width;
+
+            @media screen and (max-width: 55rem) {
+                margin-right: 0;
+            }
+
+        }
+
+        &--margin-left {
+            margin-left: $sidebar-width;
+
+            @media screen and (max-width: 55rem) {
+                margin-left: 0;
+            }
+        }
+    }
+}

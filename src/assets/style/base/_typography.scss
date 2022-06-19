@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'cairo-bold';
+    src: url(@/assets/fonts/cairo/Cairo-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'cairo-extra-light';
+    src: url(@/assets/fonts/cairo/Cairo-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: 'cairo-semi-bold';
+    src: url(@/assets/fonts/cairo/Cairo-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'cairo-regular';
+    src: url(@/assets/fonts/cairo/Cairo-Regular.ttf);
+}
+
+// 1rem value
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'cairo-bold', sans-serif;
+    line-height: 1.7;
+    color: $black-color;
+    font-size: 1.6rem;
+}
+
+.font {
+    &--title {
+        font-size: 2rem;
+    }
+
+    &--semi {
+        font-family: 'cairo-semi-bold';
+    }
+}

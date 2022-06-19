@@ -1,0 +1,15 @@
+.no-data {
+    &__img {
+        max-width: 40rem;
+        text-align: center;
+        margin: auto;
+        display: block;
+        margin-top: 5rem;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: 'cairo-semi-bold';
+    }
+}

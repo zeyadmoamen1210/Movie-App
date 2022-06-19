@@ -1,0 +1,50 @@
+.app-sidebar {
+    background-color: #FFF;
+    padding: 1.5rem;
+    width: $sidebar-width;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+
+    @media screen and (max-width: 55rem) {
+        display: none;
+    }
+
+    &__logo-box {
+        text-align: center;
+    }
+
+    &__logo {
+        width: 10.3rem;
+    }
+
+    &__links {
+        margin-top: 1.5rem;
+        list-style: none;
+    }
+
+    &__link {
+        margin-bottom: .5rem;
+        text-decoration: none;
+        color: $black-color;
+        font-family: 'cairo-semi-bold';
+        width: 100%;
+        display: block;
+        padding: 0.8rem 2rem;
+        border-radius: 1rem;
+
+        &:hover {
+            span {
+                display: block;
+                transition: transform .1s linear;
+                transform: translate(-7px);
+            }
+        }
+
+        &.active-route {
+
+            background: linear-gradient(118deg, var(--primary-color), var(--primary-color-10));
+            color: $white-color;
+        }
+    }
+}

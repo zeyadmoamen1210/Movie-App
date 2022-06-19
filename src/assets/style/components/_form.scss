@@ -1,0 +1,10 @@
+.el-form-item {
+    flex-direction: column;
+
+    &__label {
+        justify-content: flex-start;
+        font-family: "cairo-semi-bold";
+        font-size: 1.5rem;
+        color: $grey-color;
+    }
+}

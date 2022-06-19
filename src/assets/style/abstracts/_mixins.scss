@@ -1,0 +1,8 @@
+@mixin min-height($value) {
+    min-height: $value;
+}
+
+@mixin center-with-grid {
+    display: grid;
+    place-content: center;
+}

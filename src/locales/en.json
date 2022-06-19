@@ -1,0 +1,61 @@
+{
+    "Notify": {
+        "Welcome": "Welcome",
+        "HopeYouEnjoy": "Hope You Enjoy !",
+        "InvalidEmailOrPassword": "Invalid Email Or Password",
+        "EnterAValidEmailOrPassword": "Enter A Valid Email Or Password",
+        "EmailAlreadtToken": "Email Already Been Token",
+        "ErrorInRegister": "Error In Register"
+    },
+    "FormRules": {
+        "Required": "This Field Is Required",
+        "Email": "Please Enter A Valid Email",
+        "Number": "This Field Must Be Number"
+    },
+    "Login": {
+        "LoginToYourAccount": "Login To Your Account",
+        "Email": "Email ",
+        "EmailPlaceholder": "Enter Your Email Address",
+        "Password": "Password",
+        "PasswordPlaceholder": "Enter Your Email Address",
+        "Login": "Login",
+        "Register": "Register"
+    },
+    "Register": {
+        "Name": "Name",
+        "NamePlaceholder": "Enter Your Name",
+        "Email": "Email",
+        "EmailPlaceholder": "Enter Your Email",
+        "Password": "Password",
+        "PasswordPlaceholder": "Enter Your Password",
+        "SignUp": "Sign Up",
+        "Register": "Register",
+        "AlreadyMember": "Already Member",
+        "LoginHere": "Login Here"
+    },
+    "AddMovie": {
+        "Add": "Add New Movie",
+        "AttachImgForMovie": "Please Attach Movie Image",
+        "MovieName": "Movie Name",
+        "MovieCategory": "Movie Category",
+        "MovieDescription": "Movie Description",
+        "SubmitAddMovie": "Add Movie",
+        "Update": "Update Movie"
+    },
+    "Category": {
+        "Name": "Category Name",
+        "Add": "Add Category",
+        "Update": "Update Category"
+    },
+    "NoData": {
+        "NoMoviesFound": "No Movies Found",
+        "NoCategoriesFound": "No Categories Found"
+    },
+    "messages": {
+        "ThereAreSomethingWrong": "There Are Something Wrong 😑",
+        "CheckYourConnection": "Check Your Connection",
+        "DeletedSuccessfully": "Deleted Successfully 🚀🚀",
+        "CreatedSuccesssfully": "Created Successfully 🚀🚀",
+        "UpdatedSuccessfully": "Updated Successfully 🚀🚀"
+    }
+}

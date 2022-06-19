@@ -1,0 +1,40 @@
+.register {
+    @include min-height(100vh);
+    @include center-with-grid;
+    overflow: hidden;
+
+    &__container {
+        min-width: 60rem;
+
+        @media screen and (max-width: 50rem) {
+            min-width: 85vw;
+        }
+    }
+
+    &__title {
+        margin-bottom: 1rem;
+        font-size: 2.5rem;
+        font-family: 'cairo-semi-bold';
+    }
+
+    &__btn {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    &__already-member {
+        margin-top: .5rem;
+        text-align: end;
+        font-family: "cairo-semi-bold";
+    }
+
+    &__already-member-link {
+
+        &:link,
+        &:visited {
+            color: var(--primary-color);
+            font-family: 'cairo-bold';
+            text-decoration: none;
+        }
+    }
+}

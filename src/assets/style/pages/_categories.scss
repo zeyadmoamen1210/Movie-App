@@ -1,0 +1,13 @@
+.catergories {
+    margin-top: 1.5rem;
+
+    &__grid {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    &__category-card {
+        padding: 1rem;
+    }
+}

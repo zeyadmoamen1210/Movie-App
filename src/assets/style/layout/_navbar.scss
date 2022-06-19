@@ -1,0 +1,46 @@
+.app-navbar {
+    background-color: $white-color;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &__colors {
+        display: flex;
+        gap: .5rem;
+    }
+
+    &__color {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    &__btns {
+        gap: 1.2rem;
+        display: flex;
+    }
+
+    &__btn {
+        background: none;
+        border: none;
+        margin-top: .5rem;
+        cursor: pointer;
+    }
+
+    &__flag {
+        width: 2.8rem;
+        height: 2.8rem;
+        object-fit: contain;
+    }
+
+    &__logout {
+        width: 3rem;
+    }
+
+
+}

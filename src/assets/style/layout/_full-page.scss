@@ -1,0 +1,4 @@
+.full-page-layout {
+    @include min-height(100vh);
+    // background: $layout-bg;
+}
